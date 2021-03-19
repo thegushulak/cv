@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Initiate Survey</title>
+</head>
+
+<body>
+  <h1>Tell us about YOU!</h1>
+  <form class="" action="index.html" method="post">
+    <label for="name">Your Name:</label>
+    <input type="text" name="name"><br>
+    <label for="phone">Your phone number:</label>
+    <input type="tel" name="phone"><br>
+    <label for="Email">Your email:</label>
+    <input type="email" name="Email"><br>
+    <label for="joinreason">How'd you hear about us?</label>
+    <select class="" name="joinreason">
+      <option value="">-Please select an option-</option>
+      <option value="friend">From a friend</option>
+      <option value="family">From a loved one</option>
+      <option value="news">Some kind of news outlet</option>
+      <option value="advertisements">Wanted posters</option>
+      <option value="online">Online</option>
+    </select><br />
+    <fieldset>
+      <legend>Are you happy?</legend>
+      <input type="radio" id="very" name="happy">
+      <label for="very">Very!</label><br>
+      <input type="radio" id="usually" name="happy">
+      <label for="usually">I'm usually pretty happy.</label><br>
+      <input type="radio" id="sometimes" name="happy">
+      <label for="sometimes">I don't know, sometimes, maybe.</label><br>
+      <input type="radio" id="seldom" name="happy">
+      <label for="seldom">Psh! Hardly. Maybe occasionally.</label><br>
+      <input type="radio" id="never" name="happy">
+      <label for="never">What do you mean, happy?</label><br>
+    </fieldset>
+    <label for="joinwhen">When would you like to join?</label>
+    <input type="date" name="joinwhen"><br>
+    <label for="colour">Favourite colour?</label>
+    <input type="color" name="colour"><br>
+    <label for="self">Tell us about yourself. 200 words or less.</label><br>
+    <textarea name="name" rows="12" cols="100" maxlength="800"></textarea><br>
+    <label for="pet">Show us your pet (opt):</label>
+    <input type="file" name="pet"><br>
+    <input type="submit" name="initalhere">
+  </form>
+</body>
+
+</html>
